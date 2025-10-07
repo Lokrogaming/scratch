@@ -1,0 +1,109 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="src/main.css">
+        <link rel="icon" href="src/img/icon.png">
+        <title>Tile Puzzle</title>
+        <meta name="google" content="notranslate">
+        
+
+        <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+  <main>
+      <div  class="stage">
+    <section class="card" role="region" aria-label="Makerscene Profil">
+      <div class="avatar" aria-hidden="true">
+        <img src="src/img/logo-tp.png" alt="Makerscene Profilbild" />
+      </div>
+      <h1>Tile Puzzle</h1>
+      
+      <p class="bio">Das Spiel gegen Langeweile</p><div class="links" aria-hidden="false">
+    <a class="btn" href="https://scratch.mit.edu" role="button">View on Scratch</a>
+    
+    <a class="btn ghost" id="descBtn" role="button">Hinweise/Beschreibung</a>
+  </div>
+ 
+      
+
+</section>
+<div class="scroll-hint" aria-hidden="true">
+        <div class="arrow-down"><?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+            <svg fill="currentColor" width="80px" height="80px" viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg">
+                <path d="M849.973.011v1497.931L486.9 1134.871 331 1290.772 960.228 1920l629.228-629.228-155.901-155.901-363.071 363.071V.011z" fill-rule="evenodd"/>
+            </svg></div>
+        <span class="scroll-text">scroll für mehr infos</span>
+      </div>
+      
+    </div>
+    
+            
+    <div class="items-container">
+<section class="card" role="region" id="desc">
+        <div class="card-title"><h2 id="rules-title">Hinweise und Beschreibung</h2></div>
+    <div class="desc">
+            <h1>TilePuzzle</h1>
+          
+            <h2>Puzzlegame</h2>
+          
+            <p><strong>Idee:</strong></p>
+          
+            <p>
+              Jedes Kästchen des 3x3 Feldes, hat eine zufällige Farbe und man muss versuchen die Tiles in die selbe Farbe zu klicken
+            </p>
+          
+            
+          
+            <p><strong>Steuerung:</strong><br>
+            <p>Klicke auf die Tiles und verändere dadurch ihre Farbe</p>
+          
+            <p>Planung von Dokumentation, Tutorials etc. sind per Web einsehbar</p>
+          
+            
+          
+            <h3>Die geplanten Versionen:</h3>
+          
+            <table>
+              <tr>
+                <th>Version</th>
+                <th>Status</th>
+                <th>Developer</th>
+              </tr>
+              <tr>
+                <td>V1.0 Beta Preview</td>
+                <td><span class="status">Noch in Planung und nicht in Entwicklung</span></td>
+                <td>Lokro (Erik)</td>
+              </tr>
+              <tr>
+                <td>V1.1 Prerelease</td>
+                <td><span class="status">Noch in Planung und nicht in Entwicklung</span></td>
+                <td>Lokro (Erik)</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+    <br>
+    <div class="card miniCard">
+        <div class="card-title"><h2 id="rules-title">Developers</h2></div>
+        <h4>Lokro (Erik)</h4>
+      </div>
+  </section>
+  </div>
+  </main><br><br>
+  <script>
+  const desc = document.getElementById("desc");
+  const descBtn = document.getElementById("descBtn");
+  descBtn.addEventListener("click", () => {
+    document.getElementById("desc").scrollIntoView({ behavior: "smooth" });
+  });
+
+  </script>
+  <script>
+       /*setInterval(()=> {
+           window.location.reload();
+       }, 1000);
+    */
+  </script>
+
+  
+</body>
+</html>  
